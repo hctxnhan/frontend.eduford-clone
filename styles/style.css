@@ -4,7 +4,7 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 10px;
 }
 
@@ -12,7 +12,7 @@ header {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/assets/images/eduford_img/banner.png);
+    url(../assets/images/eduford_img/banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +39,7 @@ nav {
 }
 
 .nav-list__item::after {
-  content: "";
+  content: '';
   width: 0;
   height: 3px;
   background-color: #f44336;
@@ -239,7 +239,7 @@ main section {
 
 .section--enroll-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/assets/images/eduford_img/banner2.jpg);
+    url(../assets/images/eduford_img/banner2.jpg);
   border-radius: 10px;
 }
 
